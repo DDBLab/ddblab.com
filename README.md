@@ -1,4 +1,4 @@
-# ddblab.com
+# pod.ddb.comau
 
-http://ddblab.com
+http://pod.ddb.com.au
 
