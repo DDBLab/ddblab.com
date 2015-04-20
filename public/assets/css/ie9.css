@@ -1,0 +1,28 @@
+#main section {
+  display: table; }
+  #main section div.title {
+    display: table-cell !important;
+    vertical-align: middle;
+    text-align: center; }
+    #main section div.title h1, #main section div.title h2 {
+      margin: 0 auto; }
+
+.page .hero {
+  display: table; }
+  .page .hero div.title {
+    display: table-cell !important;
+    vertical-align: middle;
+    text-align: center; }
+    .page .hero div.title h1, .page .hero div.title h2 {
+      margin: 0 auto; }
+.page .page-nav {
+  display: none !important; }
+
+#work.page .work-nav {
+  display: none !important; }
+#work.page .content .work-title {
+  display: table; }
+  #work.page .content .work-title div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
