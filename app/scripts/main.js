@@ -21,6 +21,7 @@
 
   var querySelector = document.querySelector.bind(document);
 
+  /*
   var navdrawerContainer = querySelector('.navdrawer-container');
   var body = document.body;
   var appbarElement = querySelector('.app-bar');
@@ -97,6 +98,23 @@
       console.error('Error during service worker registration:', e);
     });
   }
+  */
 
   // Your custom JavaScript goes here
+
+  function hello() {
+    console.log('hello world');
+  }
+
+  hello();
+
+  $('#fullpage').fullpage({
+    // anchors: ['firstPage', 'secondPage', '3rdPage'],
+    // sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+    // navigation: true,
+    // navigationPosition: 'right',
+    // navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+    responsiveWidth: 900
+  });
+
 })();
