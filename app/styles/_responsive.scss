@@ -1,0 +1,22 @@
+$desktop-min-width: 768px;
+
+@mixin mobile {
+  @media only screen
+  and (max-width: $desktop-min-width - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen
+  and (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
+@mixin widescreen {
+  @media screen
+  and (min-width: 1400px) {
+    @content;
+  }
+}

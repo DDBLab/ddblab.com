@@ -1,0 +1,198 @@
+
+
+$font-size-mobile: 22px;
+
+.intro {
+
+  background-image: url('../images/intro-line.svg');
+  background-position: left 50% bottom -350px;
+  background-repeat: no-repeat;
+  background-size: 60px;
+
+  width: 100%;
+  height: 100%;
+
+  @include mobile {
+    background-position: left 50% bottom -400px;
+  }
+
+
+  h1 {
+    margin:auto;
+    font-size: 4vw;
+    color: #000;
+    text-align: center;
+    /* vertical-align: middle; */
+    font-weight: 600;
+    position: absolute;
+    top: 38%;
+    left: 18%;
+
+    transition: all 0ms linear;
+
+    @include mobile {
+      font-size: 30px;
+      // padding: 0 20px 0 20px;
+      top: 38%;
+      left: 0;
+    }
+
+  }
+
+  .square {
+    transition: all 400ms ease-out;
+    left: 24%;
+    top: 25%;
+    position: absolute;
+    height: 80px;
+    cursor: pointer;
+    background-image: url('../images/square.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+
+    @include mobile {
+      top: 20%;
+    }
+
+  }
+
+  .triangle {
+    transition: all 400ms ease-out;
+    left: 70%;
+    top: 25%;
+    position: absolute;
+    height: 80px;
+    cursor: pointer;
+    background-image: url('../images/triangle.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+
+    @include mobile {
+      left: 60%;
+      top: 20%;
+    }
+  }
+
+  .circle {
+    transition: all 400ms ease-out;
+    left: 47%;
+    top: 55%;
+    position: absolute;
+    height: 20%;
+    cursor: pointer;
+    background-image: url('../images/circle.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+
+    @include mobile {
+      left: 39%;
+      top: 55%;
+    }
+
+  }
+}
+
+.pod-one {
+
+  background-image: url('../images/pod-line.svg');
+  background-position: left 50% top -250px;
+  background-repeat: no-repeat;
+  background-size: 104px;
+
+  width: 100%;
+  height: 100%;
+
+  .text {
+    width: 400px;
+    top: 360px;
+    padding-left: 60px;
+    left: 50%;
+    position: absolute;
+
+    @include mobile {
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+    }
+
+    p {
+
+      font-weight: 200;
+
+      @include mobile {
+        font-size: 4vw;
+      }
+    }
+  }
+}
+
+.pod-two {
+
+  background-image: url('../images/pod-line-2.svg');
+  background-position: left 50% top -800px;
+  background-repeat: no-repeat;
+  background-size: 410px;
+
+  width: 100%;
+  height: 100%;
+
+  @include mobile {
+    background-image: url('../images/pod-line.svg');
+    background-position: left 50% top -250px;
+    background-repeat: no-repeat;
+    background-size: 104px;
+  }
+
+  .launchpad {
+    width: 320px;
+    top: 130px;
+    left: 50%;
+    padding-left: 60px;
+    position: absolute;
+
+    @include mobile {
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+    }
+
+    p {
+      padding-top: 0px;
+      font-weight: 200;
+
+      @include mobile {
+        font-size: 4vw;
+      }
+    }
+  }
+
+  .now-pod {
+
+    width: 380px;
+    top: 450px;
+    left: 50%;
+    padding-left: 60px;
+    position: absolute;
+
+    @include mobile {
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+    }
+
+    p {
+      padding-top: 0px;
+      font-weight: 200;
+      @include mobile {
+        font-size: 4vw;
+      }
+    }
+
+  }
+}
