@@ -9,7 +9,7 @@ $font-size-mobile: 22px;
     .intro {
 
       background-image: url('../images/intro-line.svg');
-      background-position: left 50% bottom -350px;
+      background-position: left 50% bottom -300px;
       background-repeat: no-repeat;
       background-size: 60px;
 
@@ -80,8 +80,9 @@ $font-size-mobile: 22px;
 
       .circle {
         transition: all 400ms ease-out;
-        left: 47%;
+        left: 50%;
         top: 55%;
+        margin-left: -40px;
         position: absolute;
         height: 20%;
         cursor: pointer;
@@ -118,14 +119,14 @@ $font-size-mobile: 22px;
         height: 100%;
 
         background-image: url('../images/pod-line.svg');
-        background-position: left 0px top -240px;
+        background-position: left 0px top -310px;
         background-repeat: no-repeat;
         background-size: 104px;
       }
 
       .text {
         width: 400px;
-        top: 370px;
+        top: 300px;
         padding-left: 60px;
         left: 50%;
         position: absolute;
@@ -234,7 +235,6 @@ $font-size-mobile: 22px;
 
   }
 
-
   .candidate-section {
 
     position: relative;
@@ -296,18 +296,36 @@ $font-size-mobile: 22px;
         width: 842px;
         height: 100%;
         background-image: url("../images/creativity-humanity-technology.svg");
-        background-position: left -64px top -180px;
+        background-position: left -64px top -200px;
         background-repeat: no-repeat;
         background-size: 842px;
       }
 
       .content {
 
-        width: 320px;
-        top: 400px;
-        left: 45%;
-        padding-left: 20px;
+        width: 700px;
+        top: 140px;
+        left: 50%;
+        margin-left: -300px;
         position: absolute;
+
+        .humanity {
+          position: absolute;
+          top:210px;
+          left: 20px;
+        }
+
+        .creativity {
+          position: absolute;
+          top:0px;
+          left: 550px;
+        }
+
+        .technology {
+          position: absolute;
+          top:420px;
+          left: 550px;
+        }
 
         p {
           padding-top: 0px;
@@ -321,7 +339,6 @@ $font-size-mobile: 22px;
     }
 
   }
-
 
   .podwork-section {
 
@@ -341,7 +358,7 @@ $font-size-mobile: 22px;
         width: 842px;
         height: 100%;
         background-image: url("../images/howdoes-pod-work.svg");
-        background-position: left 228px top -260px;
+        background-position: left 228px top -280px;
         background-repeat: no-repeat;
         background-size: 842px;
       }
@@ -349,7 +366,7 @@ $font-size-mobile: 22px;
       .content {
 
         width: 400px;
-        top: 370px;
+        top: 350px;
         left: 50%;
         margin-left: -260px;
         position: absolute;
@@ -393,12 +410,26 @@ $font-size-mobile: 22px;
         background-size: 1102px;
       }
 
+
+      .connected {
+        position: absolute;
+        z-index: 280;
+
+        width: 400px;
+        height: 100%;
+        left: -24px;
+
+        background-image: url("../images/connected.svg");
+        background-position: left 0px top 0px;
+        background-repeat: no-repeat;
+        background-size: 400px;
+      }
+
       .content {
 
-        width: 260px;
-        top: 360px;
-        left: 58%;
-        padding-left: 20px;
+        width: 300px;
+        top: 295px;
+        left: 36%;
         position: absolute;
 
         p {
@@ -423,6 +454,19 @@ $font-size-mobile: 22px;
 
       width: 100%;
       height: 100%;
+
+      span {
+        position: absolute;
+        margin-top: 20px;
+        z-index: 400;
+
+        .apply {
+          z-index: 300;
+          text-align: center;
+          width: 180px;
+          @include button;
+        }
+      }
 
       .line {
 
@@ -449,7 +493,7 @@ $font-size-mobile: 22px;
         height: 400px;
         margin-left: -36px;
         background-image: url("../images/pod-logo.svg");
-        background-position: left 0px bottom 80px;
+        background-position: left 0px bottom 100px;
         background-repeat: no-repeat;
         background-size: 400px;
       }
@@ -457,7 +501,7 @@ $font-size-mobile: 22px;
       .content {
 
         width: 400px;
-        top: 420px;
+        top: 450px;
         left: 50%;
         margin-left: -220px;
         position: absolute;

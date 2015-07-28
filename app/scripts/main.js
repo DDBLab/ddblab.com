@@ -8,20 +8,20 @@
   'use strict';
 
   var querySelector = document.querySelector.bind(document);
-  function hello() {
-    console.log('hello world');
-  }
-
-  hello();
 
   $('#fullpage').fullpage({
-    // anchors: ['firstPage', 'secondPage', '3rdPage'],
-    // sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-    // navigation: true,
-    // navigationPosition: 'right',
-    // navigationTooltips: ['First page', 'Second page', 'Third and last page'],
-    responsiveWidth: 900,
-    responsiveHeight: 700
-  });
 
+    controlArrows: true,
+    verticalCentered: true,
+    resize : false,
+
+    responsiveWidth: 900,
+    responsiveHeight: 700,
+    css3: true,
+    scrollingSpeed: 600,
+    scrollBar: false,
+    easing: 'easeInOutCubic',
+    recordHistory: true
+    // ,navigation: true
+  });
 })();
