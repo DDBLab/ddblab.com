@@ -40,4 +40,5 @@ body {
 // override the section height, otherwise lines get messy.
 .section {
   min-height: 800px !important;
+  overflow-x: hidden;
 }

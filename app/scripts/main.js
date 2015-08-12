@@ -1,7 +1,5 @@
 /*!
  *
- *  Web Starter Kit
- *  Copyright 2015 Google Inc. All rights reserved.
  *
  */
 (function () {
@@ -14,14 +12,15 @@
     controlArrows: true,
     verticalCentered: true,
     resize : false,
-
     responsiveWidth: 900,
     responsiveHeight: 700,
     css3: true,
     scrollingSpeed: 600,
     scrollBar: false,
     easing: 'easeInOutCubic',
+    scrollBar : true,
     recordHistory: true
     // ,navigation: true
   });
+
 })();
