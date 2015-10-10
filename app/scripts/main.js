@@ -1,7 +1,4 @@
-/*!
- *
- *
- */
+
 (function () {
   'use strict';
 
@@ -16,11 +13,12 @@
     responsiveHeight: 700,
     css3: true,
     scrollingSpeed: 600,
-    scrollBar: false,
     easing: 'easeInOutCubic',
-    scrollBar : true,
-    recordHistory: true
-    // ,navigation: true
+    scrollBar : true
   });
+
+  setTimeout(function() {
+    $('.fullpage-container').css( { 'opacity':'1' } );
+  }, 500);
 
 })();
