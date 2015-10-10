@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="DDB’s Launchpad program has now evolved to become DDB POD. POD is part lab, part internship program. Starting in Sydney and spanning the DDB international network, this evolution sees the program expand from the original formula of a creative team to now include skills of young technology thinkers.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DDB POD – Creativity + Humanity + Technology</title>
+    <title>DDB POD – Technology Intern Program</title>
+
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" sizes="192x192" href="images/chrome-icon-192x192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -15,10 +16,22 @@
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
     <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
     <link rel="stylesheet" href="styles/jquery.fullPage.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
   </head>
   <body>
+
+    <div class="mobile-background"></div>
+
     <div id="fullpage" class="fullpage-container">
     	<div class="section intro-section" id="section0">
     		<div class="intro">
@@ -59,7 +72,7 @@
     		</div>
     	</div>
       <div class="section creativity-section" id="section5">
-        <div class="creativity">
+        <div class="creativity-holder">
           <div class="line-holder"></div>
           <div class="content">
             <div class="humanity">
@@ -132,8 +145,11 @@
     <script src="/bower_components/lodash/lodash.js"></script>
     <script src="/bower_components/mediaelement/build/mediaelement-and-player.js"></script>
     <script src="/bower_components/detect-mobile-browser/detectmobilebrowser.js"></script>
-    <script src="/bower_components/fullpage/jquery.fullpage.js"></script>
-    <script src="/bower_components/jquery.slimscroll/jquery.slimscroll.js"></script>
+    <script src="/bower_components/fullpage/jquery.fullPage.js"></script>
+    <script src="/bower_components/fullpage/vendors/jquery.easings.min.js"></script>
+    <script src="/bower_components/fullpage/vendors/jquery.slimscroll.min.js"></script>
+    <script src="/bower_components/jquery.slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/bower_components/parallaxify/src/parallaxify.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
