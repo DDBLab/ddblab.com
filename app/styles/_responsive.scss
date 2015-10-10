@@ -20,3 +20,17 @@ $desktop-min-width: 768px;
     @content;
   }
 }
+
+@mixin widerscreen {
+  @media screen
+  and (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin abovewiderscreen {
+  @media screen
+  and (min-width: 1800px) {
+    @content;
+  }
+}

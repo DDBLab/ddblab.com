@@ -1,11 +1,5 @@
-/*
- * Web Starter Kit
- *
- * Multi-screen layout styles for your page. Brought to you by the
- * Web Starter Kit team.
- *
- */
-@import '_h5bp';
+
+@import 'h5bp';
 
 /*
  * Visual Style Guide styles
@@ -33,12 +27,38 @@ body {
   overflow-x: hidden;
 }
 
-@import '_responsive';
-@import '_mixins';
-@import '_fullpage';
+@import 'responsive';
+@import 'mixins';
+@import 'components/media-queries';
+@import 'fullpage';
 
 // override the section height, otherwise lines get messy.
 .section {
-  min-height: 800px !important;
+
+  min-height: 1080px !important;
   overflow-x: hidden;
+
+  @include mobile {
+    height:600px;
+    max-height: 900px !important;
+    min-height: 900px !important;
+  }
+}
+
+
+.section.podsignup-section {
+
+  min-height: 600px !important;
+  max-height: 600px !important;
+  overflow-x: hidden;
+
+  @include mobile {
+    height:400px;
+    max-height: 600px !important;
+    min-height: 600px !important;
+  }
+}
+
+::-webkit-scrollbar {
+    display: block;
 }
