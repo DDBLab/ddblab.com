@@ -24,7 +24,8 @@
     "main-bower-files": "^2.5.0",
     "opn": "^1.0.1",
     "wiredep": "^2.2.2",
-    "vinyl-ftp" : "0.4.2"
+    "vinyl-ftp" : "0.4.2",
+    "gulp-awspublish" : "2.0.2"
   },
   "eslintConfig": {
     "env": {

@@ -56,7 +56,7 @@ gulp.task('html', ['styles'], () => {
     .pipe($.if('*.css', $.minifyCss({compatibility: '*'})))
     .pipe(assets.restore())
     .pipe($.useref())
-    //.pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
+    .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
     .pipe(gulp.dest('dist'));
 });
 
@@ -106,7 +106,7 @@ gulp.task( 'deploy', function() {
     var conn = ftp.create( {
         host: '202.90.34.38',
         user: 'tribal_vw_stage',
-          password: 'SDrwf4ug',
+        password: 'SDrwf4ug',
         parallel: 10,
         debugMode: true
         // log: gutil.log
