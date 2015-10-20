@@ -593,6 +593,26 @@ $font-size-mobile: 18px;
           text-align: center;
           width: 180px;
           @include button;
+
+          margin-left: 20px;
+
+          @include mobile {
+            margin-left: 0px;
+          }
+
+        }
+        .candidate {
+          z-index: 300;
+          text-align: center;
+          width:280px;
+          @include button;
+          display: block;
+          float: left;
+
+          @include mobile {
+            margin-left: 0px;
+            margin-bottom: 20px;
+          }
         }
       }
 
@@ -643,7 +663,7 @@ $font-size-mobile: 18px;
 
       .content {
 
-        width: 400px;
+        width: 480px;
         top: 450px;
         left: 50%;
         margin-left: -220px;
