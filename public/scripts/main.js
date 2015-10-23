@@ -1,0 +1,1 @@
+!function(){"use strict";document.querySelector.bind(document);$("#fullpage").fullpage({controlArrows:!0,verticalCentered:!0,resize:!1,responsiveWidth:900,responsiveHeight:700,css3:!0,scrollingSpeed:600,easing:"easeInOutCubic",scrollBar:!0}),setTimeout(function(){$(".fullpage-container").css({opacity:"1"})},500)}();
