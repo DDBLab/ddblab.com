@@ -5,7 +5,6 @@
   var querySelector = document.querySelector.bind(document);
 
   $('#fullpage').fullpage({
-
     controlArrows: true,
     verticalCentered: true,
     resize : false,
